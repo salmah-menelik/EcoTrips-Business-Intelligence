@@ -1,16 +1,17 @@
-# 🌍 EcoTrips Business Intelligence Project
+# 🌍 🌍 EcoTrips | End-to-End Business Intelligence Project
 
-A Business Intelligence solution developed to transform operational travel data into actionable insights through SQL analysis, interactive dashboards, and business-focused reporting.
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-512BD4?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
-![DBML](https://img.shields.io/badge/DBML-000000?style=for-the-badge)
----
+End-to-end Business Intelligence project transforming operational travel data into strategic insights through data modeling, Google BigQuery SQL, KPI development, and interactive Power BI dashboards.
 
 <p align="center">
-  <img src="05_Dashboard_Images/Executive_Dashboard.png" alt="Executive Dashboard" width="100%">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/Google_BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white">
+  <img src="https://img.shields.io/badge/DAX-512BD4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DBML-000000?style=for-the-badge">
+</p>---
+
+<p align="center">
+  <img src="05_Dashboard_Images/Executive_Dashboard.png" width="95%">
 </p>
 
 ---
