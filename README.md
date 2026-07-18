@@ -2,17 +2,17 @@
 
 A Business Intelligence solution developed to transform operational travel data into actionable insights through SQL analysis, interactive dashboards, and business-focused reporting.
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-512BD4?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
-![DBML](https://img.shields.io/badge/DBML-000000?style=for-the-badge)
+![Power BI](...)
+![Google BigQuery](...)
+![DAX](...)
+![Power Query](...)
+![DBML](...)
 
 ---
 
-# 📊 Dashboard Preview
-
-![Executive Dashboard](05_Dashboard_Images/Executive_Dashboard.png)
+<p align="center">
+  <img src="05_Dashboard_Images/Executive_Dashboard.png" alt="Executive Dashboard" width="100%">
+</p>
 
 ---
 
