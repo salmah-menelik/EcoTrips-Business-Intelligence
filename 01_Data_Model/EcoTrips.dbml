@@ -1,0 +1,97 @@
+
+Table customer {
+  customer_id int [pk]
+  full_name varchar [not null]
+  email varchar [unique, not null]
+  birth_date date
+  gender varchar
+  location varchar
+  registration_date date [not null]
+}
+
+
+Table local_operator {
+  operator_id int [pk, increment]
+
+  business_name varchar [not null]
+  cnpj varchar [unique]
+  contact varchar
+  phone varchar
+  email varchar
+  region varchar
+}
+
+Table offer {
+  offer_id int [pk, increment]
+
+  offer_type varchar [not null]
+  title varchar [not null]
+  description text
+  price decimal(10,2)
+
+  operator_id int
+}
+
+Table activity {
+  offer_id int [pk]
+
+  difficulty_level varchar [not null]
+  title varchar
+  duration int
+  price decimal(10,2)
+  max_group_size int
+}
+
+Table accommodation {
+  offer_id int [pk]
+
+  accommodation_type varchar [not null]
+  capacity int
+  breakfast_included boolean
+}
+
+Table reservation {
+  reservation_id int [pk, increment]
+  customer_id int
+  offer_id int
+  reservation_date date
+  experience_date date
+  number_of_people int
+  status varchar
+}
+
+Table review {
+  review_id int [pk, increment]
+
+  customer_id int
+  offer_id int
+
+  rating int [not null]
+  comment text
+
+  review_date date [not null]
+}
+
+Table sustainable_practice {
+  practice_id int [pk, increment]
+  description varchar
+}
+
+Table offer_practice {
+  offer_id int [pk]
+  practice_id int [pk]
+}
+
+Ref: offer.operator_id > local_operator.operator_id
+
+Ref: reservation.customer_id > customer.customer_id
+Ref: reservation.offer_id > offer.offer_id
+
+Ref: review.customer_id > customer.customer_id
+Ref: review.offer_id > offer.offer_id
+
+Ref: activity.offer_id - offer.offer_id
+Ref: accommodation.offer_id - offer.offer_id
+
+Ref: offer_practice.offer_id > offer.offer_id
+Ref: offer_practice.practice_id > sustainable_practice.practice_id
