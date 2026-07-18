@@ -10,6 +10,12 @@ A Business Intelligence solution developed to transform operational travel data 
 
 ---
 
+# 📊 Dashboard Preview
+
+![Executive Dashboard](05_Dashboard_Images/Executive_Dashboard.png)
+
+---
+
 # 📖 Project Overview
 
 EcoTrips is a Business Intelligence project that analyzes customer behavior, reservation trends, revenue performance, and sustainability initiatives for a travel company.
