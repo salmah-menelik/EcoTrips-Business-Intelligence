@@ -1,6 +1,6 @@
-# 🌍 🌍 EcoTrips | End-to-End Business Intelligence Project
+# 🌍 EcoTrips | End-to-End Business Intelligence Project
 
-End-to-end Business Intelligence project transforming operational travel data into strategic insights through data modeling, Google BigQuery SQL, KPI development, and interactive Power BI dashboards.
+End-to-end Business Intelligence project that transforms operational travel data into strategic business insights through relational data modeling, Google BigQuery SQL, KPI development, and interactive Power BI dashboards.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
@@ -8,7 +8,9 @@ End-to-end Business Intelligence project transforming operational travel data in
   <img src="https://img.shields.io/badge/DAX-512BD4?style=for-the-badge">
   <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge">
   <img src="https://img.shields.io/badge/DBML-000000?style=for-the-badge">
-</p>---
+</p>
+
+---
 
 <p align="center">
   <img src="05_Dashboard_Images/Executive_Dashboard.png" width="95%">
@@ -18,40 +20,103 @@ End-to-end Business Intelligence project transforming operational travel data in
 
 # 📖 Project Overview
 
-EcoTrips is a Business Intelligence project that analyzes customer behavior, reservation trends, revenue performance, and sustainability initiatives for a travel company.
+EcoTrips is a Business Intelligence case study developed to analyze customer behavior, reservation trends, revenue performance, and sustainability initiatives for a travel company.
 
-The project demonstrates a complete Business Intelligence workflow—from relational data modeling and SQL analysis in Google BigQuery to KPI development and interactive Power BI dashboards—supporting data-driven business decisions.
-
----
-
-# 📌 Executive Summary
-
-The objective of this project was to transform operational travel data into meaningful business insights that support strategic decision-making.
-
-By integrating relational data modeling, SQL analysis, KPI development, and interactive dashboards, the solution enables stakeholders to monitor business performance, evaluate customer behavior, measure sustainability initiatives, and track key performance indicators (KPIs).
-
-### Project Deliverables
-
-- Relational data model (DBML)
-- SQL analysis using Google BigQuery
-- Business KPI calculations
-- Interactive Power BI dashboards
-- Executive presentation
-- Project documentation
+The project demonstrates a complete analytics workflow—from relational database design and SQL analysis in Google BigQuery to KPI development and interactive Power BI dashboards—turning raw operational data into actionable business insights.
 
 ---
 
 # 🎯 Business Problem
 
-The project addresses business questions such as:
+Travel companies collect large volumes of operational data but often struggle to transform it into actionable insights for decision-making.
+
+This project addresses questions such as:
 
 - Which travel offers generate the highest revenue?
-- How has monthly revenue evolved over time?
-- What is the customer loyalty rate?
-- How much does each customer spend on average?
-- Which travel offers receive the highest customer ratings?
-- Which sustainability initiatives are most adopted?
-- How long does it take customers to make another reservation?
+- How has revenue evolved over time?
+- Which customer segments are the most valuable?
+- How effective are sustainability initiatives?
+- What factors influence customer loyalty?
+- Which offers receive the highest ratings?
+- How can business performance be monitored through executive dashboards?
+
+---
+
+# 🏗 Solution Overview
+
+The project follows a complete Business Intelligence workflow:
+
+```text
+Operational Data
+        │
+        ▼
+ Relational Data Modeling (DBML)
+        │
+        ▼
+ Google BigQuery
+        │
+        ▼
+ SQL Business Analysis
+        │
+        ▼
+ KPI Development
+        │
+        ▼
+ Power BI Dashboards
+        │
+        ▼
+ Business Insights & Strategic Recommendations
+```
+
+---
+
+# 📈 Key Insights
+
+The analysis uncovered several actionable business insights:
+
+- 💰 Accommodation packages generated the highest overall revenue.
+- 🔄 Activity packages showed a higher proportion of repeat customers.
+- 📈 Revenue peaked during late 2024 before declining in mid-2025.
+- 🌱 Sustainability initiatives positively influenced customer satisfaction.
+- ⭐ Customer ratings remained consistently high across both offer categories.
+- 📊 Customer loyalty reached approximately **23%**, highlighting opportunities for targeted retention strategies.
+
+These findings demonstrate how Business Intelligence supports strategic planning, revenue optimization, customer retention, and sustainability initiatives.
+
+---
+
+# 📊 Dashboard Preview
+
+## Executive Strategic Planning Dashboard
+
+<p align="center">
+<img src="05_Dashboard_Images/Executive_Dashboard.png" width="95%">
+</p>
+
+---
+
+## Sustainability Impact Dashboard
+
+<p align="center">
+<img src="05_Dashboard_Images/Sustainability_Dashboard.png" width="95%">
+</p>
+
+---
+
+# 📊 Key Performance Indicators
+
+The dashboards monitor several business KPIs, including:
+
+- Total Revenue
+- Monthly Revenue
+- Monthly Revenue Growth
+- Average Revenue per Reservation
+- Customer Loyalty Rate
+- Average Customer Spending
+- Median Offer Price
+- Average Offer Rating
+- Average Repurchase Time
+- Sustainability Index
 
 ---
 
@@ -59,77 +124,29 @@ The project addresses business questions such as:
 
 | Technology | Purpose |
 |------------|----------|
-| Google BigQuery | Data storage and SQL querying |
-| Microsoft Power BI | Interactive dashboard development |
+| Google BigQuery | Cloud data warehouse and SQL analysis |
+| Microsoft Power BI | Dashboard development and visualization |
 | DAX | KPI and measure calculations |
-| Power Query | Data transformation and preparation |
-| DBML | Relational data modeling |
+| Power Query | Data transformation |
+| DBML | Relational database modeling |
 
 ---
 
-# 📊 Key Performance Indicators
+# 🗄 Data Model
 
-The dashboard includes the following business metrics:
+The relational database was designed to support analytical queries, KPI calculations, and dashboard reporting.
 
-- Total Revenue
-- Monthly Revenue Growth
-- Average Customer Spending
-- Customer Loyalty Rate
-- Average Offer Rating
-- Median Offer Price
-- Average Repurchase Time
-- Sustainability Index
+It integrates customers, reservations, travel offers, and sustainability initiatives into a normalized analytical model.
 
----
+<p align="center">
+<img src="01_Data_Model/EcoTrips_Data_Model.png" width="90%">
+</p>
 
-# 📈 Dashboard Preview
-
-### Executive Dashboard
-
-![Executive Dashboard](05_Dashboard_Images/Executive_Dashboard.png)
-
-### Sustainability Dashboard
-
-![Sustainability Dashboard](05_Dashboard_Images/Sustainability_Dashboard.png)
+Additional documentation is available in the **01_Data_Model** folder.
 
 ---
 
-# 🏗 Project Workflow
-
-```text
-Raw Data
-     │
-     ▼
-Google BigQuery
-     │
-     ▼
-SQL Analysis
-     │
-     ▼
-KPI Development
-     │
-     ▼
-Power BI Dashboard
-     │
-     ▼
-Business Insights
-```
-
----
-
-# 🗄️ Data Model
-
-The relational database was designed to support analytical queries, KPI calculations, and interactive Power BI dashboards.
-
-The model connects customers, reservations, travel offers, and sustainability initiatives through well-defined relationships that enable efficient business analysis.
-
-![EcoTrips Data Model](01_Data_Model/EcoTrips_Data_Model.png)
-
-For additional details, including entity descriptions and relationship explanations, see the **01_Data_Model** folder.
-
----
-
-# 📁 Repository Structure
+# 📂 Repository Structure
 
 ```text
 EcoTrips-Business-Intelligence
@@ -137,42 +154,74 @@ EcoTrips-Business-Intelligence
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+│
 ├── 01_Data_Model
+│   ├── EcoTrips.dbml
+│   ├── EcoTrips_Data_Model.pdf
+│   └── EcoTrips_Data_Model.png
+│
 ├── 02_SQL
+│   ├── 01_data_exploration.sql
+│   ├── 02_business_queries.sql
+│   └── 03_kpi_calculations.sql
+│
 ├── 03_PowerBI
+│   ├── EcoTrips.pbix
+│   └── EcoTrips_Dashboard.pdf
+│
 ├── 04_Presentation
+│   ├── EcoTrips_Presentation.pdf
+│   └── EcoTrips_Presentation.pptx
+│
 ├── 05_Dashboard_Images
+│   ├── Executive_Dashboard.png
+│   └── Sustainability_Dashboard.png
+│
 └── 06_Documentation
+    ├── Project_Overview.md
+    ├── Business_Questions.md
+    └── Data_Dictionary.md
 ```
 
 ---
 
 # 💡 Business Value
 
-The project demonstrates how Business Intelligence transforms operational data into actionable insights by:
+The solution demonstrates how Business Intelligence can transform operational data into measurable business value by:
 
-- Monitoring revenue performance over time.
-- Understanding customer purchasing behavior.
-- Measuring customer loyalty and repurchase patterns.
-- Evaluating sustainability initiatives.
-- Supporting strategic decision-making through executive dashboards and KPIs.
+- Monitoring revenue performance
+- Identifying customer purchasing behavior
+- Measuring customer loyalty
+- Tracking sustainability initiatives
+- Supporting executive decision-making
+- Enabling KPI-driven performance management
 
 ---
 
 # 🚀 Getting Started
 
-1. Review the relational data model in **01_Data_Model**.
-2. Explore the SQL scripts available in **02_SQL**.
-3. Open the Power BI report located in **03_PowerBI**.
-4. Review the presentation and supporting documentation for additional business context.
+### 1. Explore the Data Model
+
+Navigate to **01_Data_Model** to understand the relational schema.
+
+### 2. Review SQL Analyses
+
+Open **02_SQL** to explore business queries and KPI calculations.
+
+### 3. Open the Dashboard
+
+Launch the Power BI report located in **03_PowerBI**.
+
+### 4. Review the Presentation
+
+The executive presentation summarizes methodology, findings, and business recommendations.
 
 ---
 
 # 📚 Documentation
 
-Additional documentation is available in the **06_Documentation** folder, including:
+Additional project documentation is available in the **06_Documentation** folder, including:
 
-- Executive Summary
 - Project Overview
 - Business Questions
 - Data Dictionary
@@ -183,10 +232,18 @@ Additional documentation is available in the **06_Documentation** folder, includ
 
 **Salmah Menelik**
 
-MBA | Business Analyst | Data Analytics | Business Intelligence
+MBA | Business Analyst | Business Intelligence | Data Analytics
 
-**LinkedIn:** https://www.linkedin.com/in/salmah-menelik/
+📍 United States
+
+**LinkedIn**
+
+https://www.linkedin.com/in/salmah-menelik/
 
 ---
 
-⭐ Thank you for visiting this project! Feel free to explore the repository and discover how Business Intelligence techniques can transform operational data into actionable business insights.
+## ⭐ If you found this project interesting...
+
+Feel free to explore the repository, review the SQL analyses, interact with the Power BI dashboards, and connect with me on LinkedIn.
+
+Feedback and suggestions are always welcome.
