@@ -1,6 +1,6 @@
 # 🌍 EcoTrips | End-to-End Business Intelligence Project
 
-End-to-end Business Intelligence project that transforms operational travel data into strategic business insights through relational data modeling, Google BigQuery SQL, KPI development, and interactive Power BI dashboards.
+End-to-end Business Intelligence project using Google BigQuery, SQL, Power BI, DAX and relational data modeling to transform operational travel data into strategic business insights.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
@@ -13,7 +13,11 @@ End-to-end Business Intelligence project that transforms operational travel data
 ---
 
 <p align="center">
-  <img src="05_Dashboard_Images/Executive_Dashboard.png" width="95%">
+  <img src="05_Dashboard_Images/EcoTrips_Dashboard.gif" width="95%">
+</p>
+
+<p align="center">
+<i>Interactive dashboard preview</i>
 </p>
 
 ---
